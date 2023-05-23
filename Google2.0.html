@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Google2.0</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="Google2.0.css" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="https://www.google.com/search">Search</a></li>
+        <li><a href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a></li>
+        <li><a href="https://gmail.com/">Gmail</a></li>
+        <li><a href="file:///C:/Users/Hemant%20Sharma/Desktop/html/css/2.html">Login</a></li>
+      </ul>
+    </nav>
+    <div class="grid">
+      <div class="grid-item" onclick="handleClick(1)">Button 1</div>
+      <div class="grid-item" onclick="handleClick(2)">Button 2</div>
+      <div class="grid-item" onclick="handleClick(3)">Button 3</div>
+      <div class="grid-item" onclick="handleClick(4)">Button 4</div>
+      <div class="grid-item" onclick="handleClick(5)">Button 5</div>
+      <div class="grid-item" onclick="handleClick(6)">Button 6</div>
+    </div>
+    <div class="container">
+      <div>
+        <img src="google2.0logo.png">
+      </div>
+      
+      
+      <div class="search-box">
+        <form action="https://www.google.com/search" method="get">
+          <label for="search">Search:</label>
+          <input type="text" name="q" placeholder="Search here">
+          <input type="submit" value="Search">
+        </form>
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <footer style="background-color: #dadce0;border-bottom: solid 0.2px darkgrey;height: 50px; ">
+      <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1" style="color: black;">About</a>&nbsp;&nbsp;&nbsp;
+      <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000130-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="color: black;">Advertising</a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.google.com/intl/en_in/business/" style="color: black;">Bussiness</a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.google.com/search/howsearchworks/?fg=1" style="color: black;">How search works</a>&nbsp;&nbsp;&nbsp;
+    <div style="text-align: right;">
+      <a href="https://policies.google.com/privacy?hl=en-IN&fg=1" style="color: black;">Privacy</a>&nbsp;&nbsp;&nbsp;
+    
+      <a href="https://policies.google.com/terms?hl=en-IN&fg=1" style="color: black;">Terms</a>&nbsp;&nbsp;&nbsp;
+    
+      <a href="#" style="color: black;"> Settings</a>&nbsp;&nbsp;&nbsp;
+    </div>
+    </footer>
+    <script>
+      function handleClick(buttonNumber) {
+        alert("Button " + buttonNumber + " clicked!");
+      }
+    </script>
+  </body>
+</html>
